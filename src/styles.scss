@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import "./assets/styles/bootstrap.css";
+@import "./assets/styles/grid";
+@import "./assets/styles/_variable.scss";
+@import "./assets/styles/common";
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+@import "primeicons/primeicons.css";
+@import "./assets/styles/primeng-overwrite";
