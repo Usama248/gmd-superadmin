@@ -11,4 +11,11 @@ export const routes: Routes = [
           { path: 'forgot-password', title: 'Reset your password', loadComponent: () => import('./pages/auth/forgot-password/forgot-password.component').then(x => x.ForgotPasswordComponent) },
         ],
     },
+    {
+      path: '',
+      loadComponent: () => import('../shared/components/layout/layout.component').then(x => x.LayoutComponent),
+      children: [
+        { path: 'home', title: 'Home', loadComponent: () => import('./pages/home/home.component').then(x => x.HomeComponent) },
+      ],
+    },
 ];
