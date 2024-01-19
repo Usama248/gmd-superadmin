@@ -1,0 +1,80 @@
+@import "../../../../assets/styles/variable";
+
+.loginMain {
+    height: 100%;
+
+    .loginBanner {
+        background-image: url("../../../../assets/images/loginBanner.png");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+
+        .loginLeft {
+            max-width: 600px;
+            width: 100%;
+            padding: 74px 0;
+
+            h1 {
+                font-size: 37px;
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+
+            img {
+                max-width: 440px;
+                width: 100%;
+                margin-top: 50px;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28px;
+                color: #191919;
+                text-align: center;
+                margin-top: 48px;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .loginForm {
+        background-color: #f6f8fb;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+
+        .loginRight {
+            max-width: 600px;
+            width: 100%;
+            padding: 74px 0;
+
+            img {
+                max-width: 310px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.loginHeading {
+    font-size: 28px;
+    font-weight: 600;
+    color: #314f84;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.loginParagraph {
+    font-size: 16px;
+    font-weight: 600;
+    color: #191919;
+    margin-bottom: 0;
+}

@@ -1299,6 +1299,14 @@ h6 {
   .px-lg-4{padding-right:1.5rem!important;
     padding-left: 1.5rem!important;}
     .px-lg-5{padding-right:3rem!important;padding-left: 3rem !important;}
+
+    .d-lg-block {
+      display: block !important;
+    }
+
+     .d-lg-flex {
+      display: flex !important;
+    }
 }
 
 .text-break {

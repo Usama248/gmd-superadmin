@@ -1,2 +1,19 @@
-<p>auth-layout works!</p>
-<router-outlet></router-outlet>
+<div class="loginMain">
+    <div class="row mx-0 h-100">
+        <div class="col-lg-6 loginBanner d-none d-lg-flex">
+            <div class="loginLeft">
+                <h1>Welcome to GuradianMD</h1>
+                <img src="../../../../assets/images/bannerIllustration.png" alt="login banner image" />
+                <p>Guardian MD is your trusted partner in selecting the perfect medical director for your healthcare
+                    business.</p>
+            </div>
+        </div>
+        <div class="col-lg-6 loginForm">
+            <div class="loginRight">
+                <img src="../../../../assets/images/gmd-logo.png" alt="gmd logo login page" />
+
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>

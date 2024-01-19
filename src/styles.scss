@@ -9,3 +9,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
 @import "primeicons/primeicons.css";
 @import "./assets/styles/primeng-overwrite";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.gmd-form-group {
+    margin-bottom: 20px;
+
+    label {
+        font-size: 14px;
+        font-weight: 500;
+        color: #191919;
+        margin-bottom: 6px;
+        line-height: 21px;
+    }
+
+    input {
+        height: 48px;
+        width: 100%;
+        padding: 13px 18px;
+        font-size: 14px;
+        color: #979797;
+        font-weight: 400;
+        border: 1px solid rgba(0, 0, 0, .3);
+        border-radius: 4px;
+        background-color: transparent;
+
+        &:focus {
+            outline: 0;
+            border-color: $primary-color;
+        }
+    }
+}

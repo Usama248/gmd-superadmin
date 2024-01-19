@@ -1,0 +1,68 @@
+.loginBtn {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+
+    p-button {
+        .p-button {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            color: white;
+            padding: 12px 42px;
+            background-color: $primary-color;
+            border-radius: 6px;
+            border: 0;
+            cursor: pointer;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+}
+
+p-checkbox {
+    .p-checkbox {
+        &.p-checkbox-focused {
+            border-color: $secondary-color;
+        }
+
+        .p-checkbox-box {
+            &:hover {
+                border-color: $secondary-color;
+            }
+
+            &.p-focus {
+                outline: 0;
+                box-shadow: none;
+            }
+
+            &.p-highlight {
+                background: $secondary-color;
+                border-color: #979797;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+.gmd-backBtn {
+    p-button {
+        .p-button {
+            background-color: $secondary-color;
+            width: 40px;
+            height: 40px;
+            display: inline-flex;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6px;
+            border: 1px solid #DFE7EF;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+}
